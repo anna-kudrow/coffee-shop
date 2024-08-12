@@ -1,0 +1,110 @@
+.features__container {
+  padding: 50px 20px 60px;
+}
+.features__small-title {
+  margin-bottom: 4px;
+}
+.features__bigger-title {
+  margin-bottom: 36px;
+}
+.features__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.feature____text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+.feature__img {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+.feature__title {
+  margin-bottom: 4px;
+}
+.feature__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .features__container {
+    padding: 55px 30px 80px;
+  }
+  .features__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 32px;
+  }
+  .features__bigger-title {
+    font-size: 42px;
+    line-height: 64px;
+    margin-bottom: 60px;
+  }
+  .feature {
+    display: flex;
+    gap: 20px;
+  }
+  .feature__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .feature__text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    width: 260px;
+    margin-bottom: 20px;
+  }
+  .energy-icon {
+    padding: 0 5px;
+  }
+  .clock-icon {
+    padding: 4px 1px 0;
+  }
+  .leaf-icon {
+    padding: 3px 1px 0;
+  }
+  .pocket-icon {
+    margin: 1px -2px;
+  }
+}
+@media (min-width: 1440px) {
+  .features__container {
+    padding: 97px 40px 120px;
+  }
+  .features__list {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+  .features__bigger-title {
+    margin-bottom: 80px;
+  }
+  .feature {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .feature__title {
+    text-align: center;
+  }
+  .feature__text {
+    width: 318px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .feature__img {
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=features.css.map */

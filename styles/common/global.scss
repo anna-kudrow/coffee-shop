@@ -1,0 +1,65 @@
+/* здесь используйте глобальные селекторы img, body, html и так далее */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page__body {
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: $black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.small-title {
+  color: $primary;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bigger-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.middle-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.smallest-title {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.button__accent {
+  color: $white;
+  background-color: $primary;
+  font-family: "Montserrat";
+}
+
+.button__non-accent {
+  color: $primary;
+  background-color: $white;
+  font-family: "Montserrat";
+}
